@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html {
+  background-color: gray;
+  margin: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 15px;
+  line-height: 15px;
+  min-width: 100%;
+  max-width: 100%;
+  transition: width 0.25s;
+  resize: none;
+  overflow: hidden;
+}
+
+.buttonDiv {
+  background-color: white;
+  padding: 10px;
+  border-radius: 0px 7px 7px;
+  border: 1px solid gray;
+}
+
+button {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid gray;
+  width: 100%;
+  border-radius: 7px;
+}
+
+.text-messages,
+.ImageWithTitle,
+.table,
+.Pagination {
+  background: white;
+  border-radius: 0px 7px 7px;
+  text-align: left;
+  padding: 5px;
+  margin: 5px 0px;
+  width: fit-content;
+}
+
+.image {
+  height: 100px;
+  width: -webkit-fill-available;
+  border: 1px solid gray;
+}
+img {
+  height: inherit;
+  width: inherit;
+}
+
+table td {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
