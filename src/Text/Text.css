@@ -1,0 +1,8 @@
+.text-messages {
+  background: white;
+  border-radius: 0px 7px 7px;
+  text-align: left;
+  padding: 5px;
+  margin: auto;
+  width: fit-content;
+}

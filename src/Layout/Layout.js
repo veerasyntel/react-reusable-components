@@ -1,20 +1,20 @@
 import React from 'react';
-import Button from './Button';
-import Text from './Text';
-import ImageWithTitle from './ImageWithTitle';
-import Table from './Table';
-import Pagination from './Pagination/Pagination';
+import Button from '../Button/Button';
+import Text from '../Text/Text';
+import ImageWithTitle from '../ImageWithTitle/ImageWithTitle';
+import Table from '../Table/Table';
+import Pagination from '../Pagination/Pagination';
+import './Layout.css'
 
 const Layout = () => {
-    const handleButtonClick = () => {}
     return (
-        <div>
+        <div className='layoutDiv'>
             <Text message={"Hi"}></Text>
             <Text message={"Lorem Ipsum doller sit amet, consectetur adipiscing elit"}></Text>
             <ImageWithTitle />
             <Table />
             <Pagination />
-            <Button handleButtonClick={handleButtonClick}/>
+            <Button />
         </div>
     )
 }

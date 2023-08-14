@@ -1,6 +1,7 @@
 import React from 'react';
 import img1 from './logo192.png';
-export default function ImageWithTitle() {
+import './ImageWithTitle.css'
+const ImageWithTitle = () => {
     return (
         <div className='ImageWithTitle'>
             <div className='image'>
@@ -11,3 +12,4 @@ export default function ImageWithTitle() {
         </div>
     )
 }
+export default  ImageWithTitle;

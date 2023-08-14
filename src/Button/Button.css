@@ -1,0 +1,15 @@
+.buttonDiv {
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 0px 7px 7px;
+    border: 1px solid gray;
+    width: fit-content;
+}
+button {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    width: 100%;
+    border-radius: 7px;
+}

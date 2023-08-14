@@ -6,8 +6,8 @@
     border-radius: 0px 7px 7px;
     text-align: left;
     padding: 5px;
-    margin: 5px 0px;
-    width: -webkit-fill-available;
+    margin: auto;
+    width: fit-content;
 
     .pagination-item {
         height: 32px;
@@ -63,6 +63,7 @@
         /* line-height: 1.43; */
         font-size: 20px;
         /* width: 20px; */
+        margin-right: 10px;
     }
 
     .dot-inactive {

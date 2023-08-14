@@ -1,7 +1,7 @@
 import React from 'react';
 // import TextBox from './TextBox';
 import './App.css';
-import Layout from './Layout';
+import Layout from './Layout/Layout';
 
 function App() {  
   return (
